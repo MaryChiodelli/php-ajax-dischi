@@ -8,7 +8,7 @@ $dischi = [
     'year' => '1988'
   ],
   [
-    'poster' => 'https://img.discogs.com/vknPDdrqRbT92pNRX0W4I5N91jg=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1246953-1448927086-6590.jpeg.jpg',
+    'poster' => 'https://i.discogs.com/psDUUalbwHXuzNS7QgK93aG6ImE4JzALnOkCPtB1HVw/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNDY5/NTMtMTQ0ODkyNzA4/Ni02NTkwLmpwZWc.jpeg',
     'title' => 'Live at Wembley 86',
     'author' => 'Queen',
     'genre' => 'Pop',
@@ -57,7 +57,7 @@ $dischi = [
     'year' => '1988'
   ],
   [
-    'poster' => 'https://img.discogs.com/KOBsqQwKiNKH-q927oHMyVdDzSo=/fit-in/596x596/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-6406665-1418464475-6120.jpeg.jpg',
+    'poster' => 'https://i.discogs.com/miw921IInGDiUUuhFko9KYnWd2hMcz63pU4amPHK0Go/rs:fit/g:sm/q:90/h:596/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY0MDY2/NjUtMTQxODQ2NDQ3/NS02MTIwLmpwZWc.jpeg',
     'title' => 'Hard Wired',
     'author' => 'Dave Weckl',
     'genre' => 'Jazz',

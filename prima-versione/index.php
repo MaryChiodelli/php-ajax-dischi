@@ -9,7 +9,7 @@
 </head>
 <body>
   <?php
-  include __DIR__ . '/../dischi.php';
+  include __DIR__ . '/../db/dischi.php';
   ?>
 
   <header>
