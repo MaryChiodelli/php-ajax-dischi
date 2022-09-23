@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  padding: 12px 20px;
+  background-color: #2E3A46;
+}
+
+.header-logo {
+  width: 46px;
+  aspect-ratio: 1 / 1;
+}
+
+main {
+  padding: 5rem 0 3.75rem;
+  background-color: #1E2D3B;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0 -1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  width: calc(100% / 2);
+  padding: 0 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.card {
+  height: 100%;
+  padding: 1.25rem;
+  color: #808080;
+  text-align: center;
+  background-color: #2E3A46;
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  margin-bottom: 1.25rem;
+  aspect-ratio: 1 / 1;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: white;
+}
+
+.card-author {
+  font-size: 1.25rem;
+  line-height: 130%;
+}
+
+.card-year {
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+@media (min-width: 768px) {
+  .col {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 1200px) {
+  .col {
+    width: calc(100% / 5);
+  }
+}
