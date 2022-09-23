@@ -14,7 +14,18 @@
   <div id="app">
     <ul>
       <li v-for="disco in dischi">
-        {{ disco.title }}
+        <div class="card">
+          <img class="card-img" :src="disco.poster" :alt="disco.title">
+          <h3 class="card-title">
+            {{ disco.title }}
+          </h3>
+          <div class="card-author">
+            {{ disco.author }}
+          </div>
+          <div class="card-year">
+            {{ disco.year }}
+          </div>
+        </div>
       </li>
     </ul>
   </div>
