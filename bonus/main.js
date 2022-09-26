@@ -19,7 +19,11 @@ const app = new Vue({
   methods: {
     fetchDischi() {
       axios
-        .get('http://localhost:8888/boolean/php-ajax-dischi/api/dischi.php')
+        .get('http://localhost:8888/boolean/php-ajax-dischi/api/dischi.php', {
+          params: {
+            genre: this.selected
+          }
+        })
         .then((res) => {
           const { response } = res.data;
           this.dischi = response;

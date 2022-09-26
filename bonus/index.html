@@ -16,13 +16,10 @@
 
     <header>
       <img class="header-logo" src="../logo.png" alt="Spotify logo">
-      <form action="./api/dischi.php">
-        <select name="genre" v-model="selected">
-          <option value="">-- seleziona un genere --</option>
-          <option v-for="genre in genres">{{ genre }}</option>
-        </select>
-        <input @click="fetchDischi" type="submit" value="cerca">
-      </form>
+      <select @change="fetchDischi" v-model="selected">
+        <option value="">-- seleziona un genere --</option>
+        <option v-for="genre in genres" :value="genre">{{ genre }}</option>
+      </select>
     </header>
 
     <main>
